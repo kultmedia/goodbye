@@ -106,8 +106,10 @@ video {
 }
 
 p {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 17px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 400;
+    color: #000c;
+    font-size: 20px;
     line-height: 1.3em;
     margin-top: 20px;
     text-rendering: optimizeLegibility;
@@ -115,11 +117,14 @@ p {
 }
 
 span.smallText {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 a {
-    color: #000;
+    color: #000c;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px dotted #000c;
 }
 
 /* Mobile Specific */
